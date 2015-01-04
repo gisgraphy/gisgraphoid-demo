@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/simpleGM_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#111111"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_reverse1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/reverse_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/reverse_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="10px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/reverse_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reverse_tips" />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleGM_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#111111"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/reverse_latitude"
+        android:layout_width="102dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.19"
+        android:layout_x="12px"
+        android:layout_y="30px"
+        android:hint="@string/latitude"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/reverse_longitude"
+        android:layout_width="99dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.33"
+        android:layout_x="12px"
+        android:layout_y="30px"
+        android:hint="@string/longitude"
+        android:textSize="18sp" />
+</LinearLayout>
+
+
+
+
+
+<LinearLayout
+    android:id="@+id/linearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <ToggleButton
+    android:id="@+id/reverse_geocoding_use_my_position"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/use_my_position" />
+
+    <TextView
+        android:id="@+id/reverse_geocoding_use_my_position_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_my_position" />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/reverse_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/reverse_geocode_label" />
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+</LinearLayout>
+
+ <ListView
+            android:id="@+id/reverse_results"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"/>
+
+</LinearLayout>

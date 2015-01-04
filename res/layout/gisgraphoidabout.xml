@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/gisgraphoid_about_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#111111"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/gigisgraphoid_about_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/gisgraphoid_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="10px" />
+
+    </LinearLayout>
+
+         <ScrollView
+             android:id="@+id/Scrollabout"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent" >
+
+    		<TextView
+        		android:id="@+id/gisgraphoid_about_content"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:paddingBottom="20px"/>
+		</ScrollView>
+
+</LinearLayout>

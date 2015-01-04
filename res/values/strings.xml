@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gisgraphoid sample</string>
+    
+    <string name="title">Gisgraphoid</string>
+    <string name="geocoding">Geocoding</string>
+    <string name="reverse_geocoding">Reverse Geocoding</string>
+    <string name="about">About Gisgraphoid</string>
+    
+         <string name="geocoding_menu_title">Geocoding</string>
+          <string name="about_menu_title">About</string>
+           <string name="reverse_geocoding_menu_title">reverse geoc.</string>
+        
+        
+        
+    <string name="about_gisgraphy_text">Gisgraphy is a free, open source framework that offers the possibility to do geolocalisation and geocoding via Java APIs or REST webservices.
+  Because geocoding is nothing without data, it provides an easy to use importer that will automagically download and import the necessary 
+  (free) data to your local database. You can also add your own data with the Web interface or the importer connectors provided. Gisgraphy is production ready, and has been designed to be scalable(load balanced), performant and used in other languages than just java : results can be output in XML, JSON, PHP, Python, Ruby, YAML, GeoRSS, and Atom. OpenGTS, One of the most popular GPS tracking System also includes a Gisgraphy client.</string>
+	<string name="about_gisgraphoid_text">
+	Gisgraphoid is a part of the free opensource Gisgraphy geocoder 
+	(as the Gisgraphy address parser, and the Gisgraphy geocoder), it give you the ability to do geocoding on your Android mobile or tab with
+	 the same Geocoder API as Google but with Gisgraphy. Free, No Google API needed by the phone, no API key, no limit.
+	  You can display the result on Openstreetmap or Google maps (Google API key required). Gisgraphy geocoder can be used when no geocoder is present..
+	</string>
+  	<string name="use_my_position">Use My GPS coordinate</string>
+        
+    <string name="geocode_label">Geocode</string>
+    <string name="reverse_geocode_label">Reverse geocode</string>
+    <string name="geocoding_tips">Select a country and enter an address :</string>
+    <string name="reverse_tips">Enter a latitude and a longitude :</string>
+    <string name="choosecountry">Select a country</string>
+    <string name="input">Address, City, Street</string>
+    <string name="ok">Ok</string>
+    <string name="latitude">Lat</string>
+    <string name="longitude">Long</string>
+    <string name="name">Name</string>
+    <string name="no_result">Sorry, no Address found</string>
+    <string name="empty_input">Please enter an address, city or street</string>
+    <string name="wrong_lat">Latitude should be a number between -90 and +90</string>
+    <string name="lat_long_mandatory">Latitude and longitude are mandatory</string>
+    <string name="wrong_long">Longitude should be a number between -180 and +180</string>
+    <string name="dialog_default_title">Oops </string>
+    <string name="geocoding_in_progress">Geocoding in progress</string>
+     <string name="reverse_geocoding_in_progress">Reverse geocoding in progress</string>
+    <string name="error">An error has occurred</string>
+    <string name="marker_tips">Long click on marker to view infos</string>
+          
+
+</resources>

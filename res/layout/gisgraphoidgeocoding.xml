@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/gisgraphoid_geocoding_linearlayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#111111"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/gisgraphoid_geocoding_linearlayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/gisgraphoid_geocoding_imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/gisgraphoid_geocoding_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="10px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gisgraphoid_geocoding_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/geocoding_tips" />
+
+    <Spinner
+        android:id="@+id/gisgraphoid_spinnerlocale"
+        android:layout_width="257dp"
+        android:layout_height="40dp" 
+        android:prompt="@string/choosecountry"/>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gisgraphoid_geocoding_linearlayout3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#111111"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/gisgraphoid_geocoding_address_input"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.86"
+        android:layout_x="12px"
+        android:layout_y="30px"
+        android:hint="@string/input"
+        android:textSize="18sp" /><Button
+            android:id="@+id/simpleGM_btn_search"
+            android:layout_width="115dp"
+            android:layout_height="46dp"
+            android:layout_weight="0.86"
+            android:text="@string/geocode_label" />
+
+</LinearLayout>
+
+ <ListView
+            android:id="@+id/gisgraphoid_geocoding_results"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"/>
+
+</LinearLayout>

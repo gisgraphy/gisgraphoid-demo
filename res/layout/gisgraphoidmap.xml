@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleGM_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#111111"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="10px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marker_tips"/>
+    
+<org.osmdroid.views.MapView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/osm_map"
+		android:layout_x="2px"
+		android:layout_y="250px"
+		/>
+<!-- <com.google.android.maps.MapView android:id="@+id/simpleGM_map"
+android:layout_width="fill_parent"
+android:layout_height="110px"
+android:apiKey="096dBlObdVZpvR7dVC3bIxIJCc2NZ77ymiTd2Lw"
+android:layout_x="2px"
+android:layout_y="100px"
+android:clickable="true" />-->
+</LinearLayout>

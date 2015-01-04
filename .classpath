@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="target/generated-sources/aidl"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="var" path="M2_REPO/com/gisgraphy/gisgraphoid/1.0/gisgraphoid-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/gisgraphy/gisgraphy-commons/1.0/gisgraphy-commons-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/vividsolutions/jts/1.8/jts-1.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/gisgraphy/universalserialiser-commons/3.0/universalserialiser-commons-3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.13/log4j-1.2.13.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/1.7.1/gson-1.7.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-android/1.5.8/slf4j-android-1.5.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openstreetmap/osmdroid-android/3.0.5/osmdroid-android-3.0.5.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
